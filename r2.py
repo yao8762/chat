@@ -44,10 +44,10 @@ def convert(lines):
 	print(f'傳了 {viki_sticker_count} 個貼圖、{viki_inage_count} 張圖片')
 
 
-def write_file(filename, lines):
-	with open(filename, 'w') as f:
-		for line in lines:
-			f.write(line + '\n')
+# def write_file(filename, lines):
+# 	with open(filename, 'w') as f:
+# 		for line in lines:
+# 			# f.write(line + '\n')
 
 
 def main():
